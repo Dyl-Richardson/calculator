@@ -33,6 +33,15 @@ input {
 
 @media screen and (max-width: 600px){
     body {
-        padding: 5% 15%;
+        padding: 5%;
+    }
+    
+    .resultat {
+        padding: 10%;
+        width: 60vw;
+    }
+
+    main {
+        width: 80vw;
     }
 }
