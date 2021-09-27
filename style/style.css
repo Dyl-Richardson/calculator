@@ -1,0 +1,30 @@
+body {
+    padding: 5% 35%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid;
+    border-color: grey;
+    border-radius: 5%;
+    text-align: center;
+    background-color: grey;
+}
+
+button {
+    flex: 1 0 20%;
+    margin: 1%;
+    padding: 5%;
+    width: 5vw;
+}
+
+.resultat {
+    border: 2px grey solid;
+    margin: 5%;
+    padding: 10%;
+    width: 25vw;
+    background-color: black;
+    color: white;
+    text-align: end;
+}
