@@ -9,10 +9,12 @@ main {
     border-color: grey;
     border-radius: 5%;
     text-align: center;
-    background-color: grey;
+    background-color: rgb(62, 62, 62);
+    width: 80%;
+    padding: 2%;
 }
 
-button {
+input {
     flex: 1 0 20%;
     margin: 1%;
     padding: 5%;
@@ -20,11 +22,17 @@ button {
 }
 
 .resultat {
-    border: 2px grey solid;
     margin: 5%;
     padding: 10%;
     width: 25vw;
-    background-color: black;
+    background-color: #88c188;
     color: white;
     text-align: end;
+    border: rgb(93, 93, 93) solid 5px;
+}
+
+@media screen and (max-width: 600px){
+    body {
+        padding: 5% 15%;
+    }
 }
