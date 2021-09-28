@@ -1,47 +1,53 @@
 body {
-    padding: 5% 35%;
+  padding: 5% 35%;
 }
 
 main {
-    display: flex;
-    flex-wrap: wrap;
-    border: 2px solid;
-    border-color: grey;
-    border-radius: 5%;
-    text-align: center;
-    background-color: rgb(62, 62, 62);
-    width: 80%;
-    padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid;
+  border-color: grey;
+  border-radius: 5%;
+  text-align: center;
+  background-color: rgb(62, 62, 62);
+  width: 80%;
+  padding: 2%;
 }
 
-input {
-    flex: 1 0 20%;
-    margin: 1%;
+button {
+  flex: 1 0 20%;
+  margin: 1%;
+  padding: 5%;
+  width: 5vw;
+}
+
+.ecran {
+  margin: 5%;
+  padding: 12%;
+  width: 25vw;
+  background-color: #88c188;
+  color: black;
+  text-align: end;
+  border: rgb(93, 93, 93) solid 5px;
+  font-family: "Orbitron", sans-serif;
+}
+
+li {
+  margin: 2% 10%;
+}
+
+@media screen and (max-width: 600px) {
+  body {
     padding: 5%;
-    width: 5vw;
-}
+  }
 
-.resultat {
-    margin: 5%;
+  .ecran {
     padding: 10%;
-    width: 25vw;
-    background-color: #88c188;
-    color: white;
-    text-align: end;
-    border: rgb(93, 93, 93) solid 5px;
-}
+    width: 60vw;
+    height: 5vh;
+  }
 
-@media screen and (max-width: 600px){
-    body {
-        padding: 5%;
-    }
-    
-    .resultat {
-        padding: 10%;
-        width: 60vw;
-    }
-
-    main {
-        width: 80vw;
-    }
+  main {
+    width: 80vw;
+  }
 }
