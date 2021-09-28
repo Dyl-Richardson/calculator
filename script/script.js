@@ -14,6 +14,9 @@ main.appendChild(ecran);
 // Creation calcul log
 let log = document.createElement("ul")
 log.innerText = "Resultat log :"
+test = document.createElement("li")
+test.className = "hidden"
+log.appendChild(test)
 document.getElementsByTagName("section")[0].appendChild(log)
 
 // Creation button
