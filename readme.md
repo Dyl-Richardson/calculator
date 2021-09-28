@@ -1,6 +1,9 @@
 ## Description
+
 Calculator creation :
+
 - JS
+- EventListener
 - HTML basic
 - CSS
 
