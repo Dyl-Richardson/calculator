@@ -12,11 +12,8 @@ ecran.className = "ecran";
 main.appendChild(ecran);
 
 // Creation calcul log
-let log = document.createElement("ul")
+let log = document.createElement("h4")
 log.innerText = "Resultat log :"
-test = document.createElement("li")
-test.className = "hidden"
-log.appendChild(test)
 document.getElementsByTagName("section")[0].appendChild(log)
 
 // Creation button
@@ -26,10 +23,10 @@ for (let i =0; i < createCalculator.length; i++) {
 
   button.addEventListener("click", e => {
     if (createCalculator[i] === "=") {
-        let log2 = document.createElement("li")
+        let log2 = document.createElement("p")
         log2.innerText = ecran.innerText
         let resultfinal = Math.round((computeResult(ecran.innerText) + Number.EPSILON) * 100) / 100
-        document.getElementsByTagName("ul")[0].appendChild(log2)
+        document.getElementsByTagName("section")[0].appendChild(log2)
         ecran.innerText = resultfinal
         log2.textContent += " = "+ resultfinal
     }
